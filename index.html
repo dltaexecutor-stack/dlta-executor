@@ -1,130 +1,107 @@
-# Delta Executor – Download & Setup Guide (November 2026)
- 
-> A plain-English guide to installing and using **Delta Executor**, the free Roblox script executor for Android, iOS, Windows and macOS.
- 
-![Platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS%20%7C%20Windows%20%7C%20macOS-4ade80?style=flat-square&labelColor=0a0a0a)
-![Updated](https://img.shields.io/badge/updated-November%202026-4ade80?style=flat-square&labelColor=0a0a0a)
-![Price](https://img.shields.io/badge/price-free-4ade80?style=flat-square&labelColor=0a0a0a)
- 
-The latest builds, verified links and step-by-step walkthroughs live on **[dlta-executor.com](https://dlta-executor.com/)**. This repo collects the essentials in one place, so you can see how setup works before you download anything.
- 
----
- 
-## 📑 Contents
- 
-- [What is Delta Executor?](#-what-is-delta-executor)
-- [Supported platforms](#-supported-platforms)
-- [Android setup](#-android-setup)
-- [iOS setup](#-ios-setup)
-- [Windows & Mac setup](#-windows--mac-setup)
-- [Getting your Delta key](#-getting-your-delta-key)
-- [Troubleshooting](#-troubleshooting)
-- [FAQ](#-faq)
-- [Disclaimer](#%EF%B8%8F-disclaimer)
----
- 
-## 🧩 What is Delta Executor?
- 
-Delta is a script executor: an app that runs custom Lua scripts inside Roblox games. Players mainly use it for UI tweaks, automation in idle and farming games such as Grow a Garden, and testing scripts they've written themselves.
- 
-What makes it popular:
- 
-- **Free to use.** Access works through a short key system instead of a paid licence.
-- **Cross-platform.** It runs on phones, tablets and desktops.
-- **Fast setup.** On most devices it's running in about two minutes.
-- **Built-in script hub.** You can browse and run community scripts without copying them in by hand.
-Each new release follows the latest Roblox update, so check the build number before you install.
- 
----
- 
-## 📱 Supported platforms
- 
-| Platform | Install type | Notes |
-|---|---|---|
-| Android | APK | Allow installs from unknown apps in your settings |
-| VNG | APK (VNG client) | For the Vietnamese Roblox build |
-| iOS | IPA / sideload | iPhone and iPad |
-| Direct Install | One-tap link | The quickest route on supported devices |
-| Windows | Desktop app | Windows 10 and 11 |
-| macOS | Desktop app | Intel and Apple Silicon |
- 
----
- 
-## 🤖 Android setup
- 
-1. **Download the APK.** Get the November 2026 build from the [Delta APK download page](https://dlta-executor.com/).
-2. **Allow unknown apps.** Go to *Settings → Apps → Special access → Install unknown apps*, then turn it on for your browser.
-3. **Install and open Delta.** Tap the downloaded file and follow the prompts.
-4. **Get your key.** Delta asks for a key on first launch. See [Getting your Delta key](#-getting-your-delta-key).
-> 💡 If Play Protect shows a warning, that's normal for any APK installed from outside the Play Store. Only download from a source you trust.
- 
----
- 
-## 🍎 iOS setup
- 
-iPhones and iPads don't allow normal APK-style installs, so Delta is added by sideloading an IPA.
- 
-1. Download the Delta IPA file.
-2. Install it with a sideloading tool, or use the Direct Install option if it's available for your iOS version.
-3. Go to *Settings → General → VPN & Device Management* and trust the developer profile.
-4. Open Delta, then open Roblox and attach it.
-Sideloaded apps on iOS can stop opening when their certificate expires. If that happens, reinstall the IPA.
- 
----
- 
-## 💻 Windows & Mac setup
- 
-1. Download the desktop build for your system.
-2. If your antivirus flags the file, add an exception before you extract it. Executors trigger false positives because they inject into another process.
-3. Run Delta, open Roblox, then click **Attach**.
-4. Paste a script or pick one from the hub, then press **Execute**.
----
- 
-## 🔑 Getting your Delta key
- 
-Delta uses a free key system to keep the executor free:
- 
-1. Tap **Get Key** inside the app. This copies a link.
-2. Open the link in your browser and complete the short checkpoint steps.
-3. Copy the key that's generated, paste it back into Delta, and tap **Verify**.
-Keys expire after a set period, so you'll repeat this now and then. The **[Delta key guide](https://dlta-executor.com/)** explains how long a key lasts and what to do when one stops working.
- 
----
- 
-## 🛠 Troubleshooting
- 
-| Problem | Likely fix |
-|---|---|
-| "App not installed" on Android | Uninstall the old version first, then install the new APK |
-| Delta closes as soon as it opens | Roblox updated. Wait for the matching Delta build |
-| Key won't verify | Generate a fresh key and check that the clipboard didn't add spaces |
-| Antivirus deletes the file (PC) | Add a folder exclusion before you download again |
-| Scripts do nothing | Make sure Delta is attached before you press Execute |
- 
----
- 
-## ❓ FAQ
- 
-**Is Delta Executor free?**
-Yes. There's no paid tier. You only go through the key steps.
- 
-**Does Delta work on the latest Roblox version?**
-Delta is updated after each Roblox patch. If it stops working after Roblox updates, wait for the matching Delta build.
- 
-**Can my Roblox account get banned?**
-It can. Using third-party executors breaks Roblox's Terms of Use. Many players test on an alt account.
- 
-**Is Delta safe?**
-Only if you download it from a trusted source. Fake "Delta" downloads with bundled malware are common, so stick to verified links.
- 
----
- 
-## ⚠️ Disclaimer
- 
-This repository is an independent, educational guide. It is **not affiliated with, endorsed by or connected to Roblox Corporation**. Using script executors may go against the Roblox Terms of Use, and you use any third-party software at your own risk.
- 
----
- 
-<p align="center">
-  <b>Latest builds and full guides → <a href="https://dlta-executor.com/">dlta-executor.com</a></b>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delta Executor – Download &amp; Setup Guide (November 2026)</title>
+<meta name="description" content="Plain-English guide to installing Delta Executor on Android, iOS, Windows and Mac – APK setup, key system, troubleshooting and FAQ. Updated November 2026.">
+<style>
+body{max-width:760px;margin:40px auto;padding:0 20px;font-family:Arial,Helvetica,sans-serif;line-height:1.7;color:#222}
+h1{font-size:30px;line-height:1.3}
+h2{font-size:22px;margin-top:36px;border-bottom:1px solid #ddd;padding-bottom:6px}
+a{color:#15803d}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+th,td{border:1px solid #ddd;padding:8px 10px;text-align:left;font-size:15px}
+th{background:#f4f4f4}
+.note{background:#f6f6f6;border-left:4px solid #4ade80;padding:10px 14px}
+</style>
+</head>
+<body>
+
+<h1>Delta Executor – Download &amp; Setup Guide (November 2026)</h1>
+
+<p>A plain-English guide to installing and using <strong>Delta Executor</strong>, the free Roblox script executor for Android, iOS, Windows and macOS.</p>
+
+<p>The latest builds, verified links and step-by-step walkthroughs live on <a href="https://dlta-executor.com/">dlta-executor.com</a>. This page collects the essentials in one place, so you can see how setup works before you download anything.</p>
+
+<h2>What is Delta Executor?</h2>
+<p>Delta is a script executor: an app that runs custom Lua scripts inside Roblox games. Players mainly use it for UI tweaks, automation in idle and farming games such as Grow a Garden, and testing scripts they've written themselves.</p>
+<p>What makes it popular:</p>
+<ul>
+<li><strong>Free to use.</strong> Access works through a short key system instead of a paid licence.</li>
+<li><strong>Cross-platform.</strong> It runs on phones, tablets and desktops.</li>
+<li><strong>Fast setup.</strong> On most devices it's running in about two minutes.</li>
+<li><strong>Built-in script hub.</strong> You can browse and run community scripts without copying them in by hand.</li>
+</ul>
+<p>Each new release follows the latest Roblox update, so check the build number before you install.</p>
+
+<h2>Supported platforms</h2>
+<table>
+<tr><th>Platform</th><th>Install type</th><th>Notes</th></tr>
+<tr><td>Android</td><td>APK</td><td>Allow installs from unknown apps in your settings</td></tr>
+<tr><td>VNG</td><td>APK (VNG client)</td><td>For the Vietnamese Roblox build</td></tr>
+<tr><td>iOS</td><td>IPA / sideload</td><td>iPhone and iPad</td></tr>
+<tr><td>Direct Install</td><td>One-tap link</td><td>The quickest route on supported devices</td></tr>
+<tr><td>Windows</td><td>Desktop app</td><td>Windows 10 and 11</td></tr>
+<tr><td>macOS</td><td>Desktop app</td><td>Intel and Apple Silicon</td></tr>
+</table>
+
+<h2>Android setup</h2>
+<ol>
+<li><strong>Download the APK.</strong> Get the November 2026 build from the <a href="https://dlta-executor.com/">Delta APK download page</a>.</li>
+<li><strong>Allow unknown apps.</strong> Go to Settings → Apps → Special access → Install unknown apps, then turn it on for your browser.</li>
+<li><strong>Install and open Delta.</strong> Tap the downloaded file and follow the prompts.</li>
+<li><strong>Get your key.</strong> Delta asks for a key on first launch. See the key section below.</li>
+</ol>
+<p class="note">If Play Protect shows a warning, that's normal for any APK installed from outside the Play Store. Only download from a source you trust.</p>
+
+<h2>iOS setup</h2>
+<p>iPhones and iPads don't allow normal APK-style installs, so Delta is added by sideloading an IPA.</p>
+<ol>
+<li>Download the Delta IPA file.</li>
+<li>Install it with a sideloading tool, or use the Direct Install option if it's available for your iOS version.</li>
+<li>Go to Settings → General → VPN &amp; Device Management and trust the developer profile.</li>
+<li>Open Delta, then open Roblox and attach it.</li>
+</ol>
+<p>Sideloaded apps on iOS can stop opening when their certificate expires. If that happens, reinstall the IPA.</p>
+
+<h2>Windows &amp; Mac setup</h2>
+<ol>
+<li>Download the desktop build for your system.</li>
+<li>If your antivirus flags the file, add an exception before you extract it. Executors trigger false positives because they inject into another process.</li>
+<li>Run Delta, open Roblox, then click <strong>Attach</strong>.</li>
+<li>Paste a script or pick one from the hub, then press <strong>Execute</strong>.</li>
+</ol>
+
+<h2>Getting your Delta key</h2>
+<p>Delta uses a free key system to keep the executor free:</p>
+<ol>
+<li>Tap <strong>Get Key</strong> inside the app. This copies a link.</li>
+<li>Open the link in your browser and complete the short checkpoint steps.</li>
+<li>Copy the key that's generated, paste it back into Delta, and tap <strong>Verify</strong>.</li>
+</ol>
+<p>Keys expire after a set period, so you'll repeat this now and then. The <a href="https://dlta-executor.com/">Delta key guide</a> explains how long a key lasts and what to do when one stops working.</p>
+
+<h2>Troubleshooting</h2>
+<table>
+<tr><th>Problem</th><th>Likely fix</th></tr>
+<tr><td>"App not installed" on Android</td><td>Uninstall the old version first, then install the new APK</td></tr>
+<tr><td>Delta closes as soon as it opens</td><td>Roblox updated. Wait for the matching Delta build</td></tr>
+<tr><td>Key won't verify</td><td>Generate a fresh key and check that the clipboard didn't add spaces</td></tr>
+<tr><td>Antivirus deletes the file (PC)</td><td>Add a folder exclusion before you download again</td></tr>
+<tr><td>Scripts do nothing</td><td>Make sure Delta is attached before you press Execute</td></tr>
+</table>
+
+<h2>FAQ</h2>
+<p><strong>Is Delta Executor free?</strong><br>Yes. There's no paid tier. You only go through the key steps.</p>
+<p><strong>Does Delta work on the latest Roblox version?</strong><br>Delta is updated after each Roblox patch. If it stops working after Roblox updates, wait for the matching Delta build.</p>
+<p><strong>Can my Roblox account get banned?</strong><br>It can. Using third-party executors breaks Roblox's Terms of Use. Many players test on an alt account.</p>
+<p><strong>Is Delta safe?</strong><br>Only if you download it from a trusted source. Fake "Delta" downloads with bundled malware are common, so stick to verified links.</p>
+
+<h2>Disclaimer</h2>
+<p>This page is an independent, educational guide. It is not affiliated with, endorsed by or connected to Roblox Corporation. Using script executors may go against the Roblox Terms of Use, and you use any third-party software at your own risk.</p>
+
+<p><strong>Latest builds and full guides: <a href="https://dlta-executor.com/">https://dlta-executor.com/</a></strong></p>
+
+</body>
+</html>
